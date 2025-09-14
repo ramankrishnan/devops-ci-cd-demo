@@ -1,62 +1,90 @@
-# Logo Server
+# 🚀 CI/CD Pipeline with Jenkins, GitHub, and AWS/GCP
 
-A simple Express.js web server that serves the Swayatt logo image.
+## 🎯 Objective
+Set up a simple CI/CD pipeline for a sample application using **AWS/GCP, Jenkins, and GitHub**.  
+This pipeline demonstrates **automation, scalability, and DevOps best practices**.
 
-## What is this app?
+---
 
-This is a lightweight Node.js application built with Express.js that serves a single logo image (`logoswayatt.png`) when accessed through a web browser. When you visit the root URL, the server responds by displaying the Swayatt logo.
+## 📌 Table of Contents
+- 📖 About the Project  
+- 🛠️ Prerequisites  
+- 🏗️ Architecture  
+- 📝 Step-by-Step Setup  
+- 🏆 Achievements  
+- 📸 Output / Screenshots  
+- 🔮 Future Enhancements  
+- 👨‍💻 Author  
 
-## Prerequisites
+---
 
-- Node.js (version 12 or higher)
-- npm (Node Package Manager)
+## 📖 About the Project
+This project automates the **build → test → deploy** cycle of a sample application using a CI/CD pipeline.  
+It integrates multiple **DevOps tools and cloud platforms** to showcase real-world deployment practices.
 
-## Installation
+### 🔹 Tech Stack
+- 📂 Source Control → **GitHub**  
+- ⚙️ CI/CD → **Jenkins**  
+- 🐳 Containerization → **Docker**  
+- ☸️ Deployment → **Kubernetes / AWS EKS / GCP GKE**  
+- 🔍 Quality & Security → **SonarQube, Trivy, OWASP Dependency Check**  
+- 📊 Monitoring → **Prometheus, Grafana**  
 
-1. Clone or download this repository
-2. Navigate to the project directory:
-   ```bash
-   cd "devops task"
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
+---
 
-## How to Start the App
+## 🛠️ Prerequisites
+Before starting, ensure the following are installed/configured:
 
-Run the following command:
+✅ **Cloud Account**: AWS or GCP with appropriate IAM permissions  
+✅ **Jenkins Server**: Installed with required plugins  
+✅ **Docker**: Installed on Jenkins and worker nodes  
+✅ **Kubernetes Cluster**: EKS, GKE, or self-managed  
+✅ **GitHub Repository**: For source code hosting  
+✅ **SonarQube Server**: For code quality analysis  
+✅ **Trivy**: For security scanning  
+
+**Languages**: Node.js (v16+) / Python (3.8+)  
+
+---
+
+## 📝 Step-by-Step Setup
+
+- ✅ Step 1 — Launch an Ubuntu 22.04 T2.large EC2 instance on AWS  
+- ✅ Step 2 — Install Jenkins, Docker, and Trivy. Create a SonarQube container using Docker.  
+- ✅ Step 3 — Install Prometheus and Grafana on a new server.  
+- ✅ Step 4 — Install the Prometheus Plugin in Jenkins and integrate it with Prometheus.  
+- ✅ Step 5 — Configure Email Notifications in Jenkins using Mailer Plugin.  
+- ✅ Step 6 — Install Jenkins Plugins:  
+  ☕ JDK | 📊 SonarQube Scanner | 🟦 NodeJS | 🛡️ OWASP Dependency Check  
+- ✅ Step 7 — Create a Pipeline Project in Jenkins using a Declarative Pipeline.  
+- ✅ Step 8 — Configure OWASP Dependency Check Plugin for security analysis.  
+- ✅ Step 9 — Build & Push Docker Image to DockerHub.  
+- ✅ Step 10 — Deploy the Docker image using Docker Run / Compose.  
+- ✅ Step 11 — Set up Kubernetes Master & Worker Nodes on Ubuntu 20.04.  
+- ✅ Step 12 — Deploy the Logo App on Kubernetes and access it via browser 🌐.  
+- ✅ Step 13 — Terminate AWS EC2 Instances after testing.  
+
+---
+
+## ☁️ Step 1 — Launch an Ubuntu Instance (AWS EC2)
+
+To begin, set up a cloud server for running Jenkins, Docker, and your CI/CD pipeline.  
+
+### 🖥️ Launch EC2 Instance
+1. Log in to AWS Management Console.  
+2. Navigate to **EC2 → Launch Instance**.  
+3. Choose **Ubuntu Server 22.04 LTS (64-bit x86)** as the AMI.  
+4. Select instance type: **t2.large** (recommended for Jenkins + Docker).  
+5. Configure key pair: create a new key pair or use an existing one (`.pem` file).  
+6. Configure security group:  
+   - Allow SSH (port 22)  
+   - Allow HTTP (port 80)  
+   - Allow Jenkins (8080), App (3000), HTTPS (443)  
+7. Click **Launch Instance 🚀**  
+
+### 🔑 Connect to the instance
 ```bash
-npm start
-```
-
-The server will start and display:
-```
-Server running on http://localhost:3000
-```
-
-## Usage
-
-Once the server is running, open your web browser and navigate to:
-```
-http://localhost:3000
-```
-
-You will see the Swayatt logo displayed in your browser.
-
-## Project Structure
-
-```
-├── app.js              # Main server file
-├── package.json        # Project dependencies and scripts
-├── logoswayatt.png     # Logo image file
-└── README.md          # This file
-```
-
-## Technical Details
-
-- **Framework**: Express.js
-
+ssh -i "your-key.pem" ubuntu@<EC2-Public-IP>
 
 
 
