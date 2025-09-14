@@ -85,8 +85,7 @@ To begin, set up a cloud server for running Jenkins, Docker, and your CI/CD pipe
 ### 🔑 Connect to the instance
 ```bash
 ssh -i "your-key.pem" ubuntu@<EC2-Public-IP>
-
-
+```
 
 outputs:
 ## 📸 Output / Screenshots
@@ -110,6 +109,3 @@ Here is the sample output of the pipeline execution:
 ![Pipeline Screenshot](https://github.com/ramankrishnan/devops-ci-cd-demo/blob/main/images/Screenshot%20(105).png)
 
 
-- **Port**: 3000
-- **Endpoint**: GET `/` - serves the logo image
-- **File served**: `logoswayatt.png`
