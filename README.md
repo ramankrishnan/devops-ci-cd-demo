@@ -86,66 +86,9 @@ To begin, set up a cloud server for running Jenkins, Docker, and your CI/CD pipe
 ```bash
 ssh -i "your-key.pem" ubuntu@<EC2-Public-IP>
 ```
-To enhance your GitHub repository's `README.md` for the `devops-ci-cd-demo` project, I'll create a polished **Output / Screenshots** section that incorporates the provided screenshots and aligns with the attractive, emoji-enhanced style you've requested. I'll also integrate this section seamlessly with the existing README content from your repository (`https://github.com/ramankrishnan/devops-ci-cd-demo`) and the previously provided **Step-by-Step Setup** section. The section will showcase the screenshots you shared (Screenshots 105, 209, 210, and 211) with descriptive captions, emojis, and a clean layout to make it visually appealing.
 
-Since you want the output section to resemble the style of the provided repository README and include the screenshots, I'll focus on creating a professional and engaging **Output / Screenshots** section. Additionally, I'll ensure the section fits naturally with the existing content about the "Logo Server" application and the CI/CD pipeline setup.
 
-Below is the **Output / Screenshots** section, followed by instructions on how to integrate it into your `README.md`. If you want the full README updated (combining the Logo Server content, Step-by-Step Setup, and this new section), I can provide that as well—just let me know!
 
-### Output / Screenshots Section
-
-```markdown
-## 📸 Output / Screenshots
-
-🎉 Below are screenshots showcasing the CI/CD pipeline in action and the deployed Logo Server application. These visuals demonstrate the successful setup and execution of the pipeline, from Jenkins to Kubernetes deployment.
-
-1. **Jenkins Pipeline Success**  
-   The Jenkins pipeline successfully executes all stages, including code checkout, SonarQube analysis, Docker build, and Kubernetes deployment.  
-   ![Jenkins Pipeline Success](https://github.com/ramankrishnan/devops-ci-cd-demo/blob/main/images/Screenshot%20(105).png?raw=true)  
-   *✅ Pipeline completed with all stages passing.*
-
-2. **SonarQube Analysis Results**  
-   Code quality analysis performed by SonarQube, showing metrics like code coverage and vulnerabilities.  
-   ![SonarQube Analysis](https://github.com/ramankrishnan/devops-ci-cd-demo/blob/main/images/Screenshot%20(209).png?raw=true)  
-   *🔍 Detailed code quality insights for the Logo Server.*
-
-3. **Grafana Monitoring Dashboard**  
-   Prometheus and Grafana monitor the Jenkins system and application performance in real-time.  
-   ![Grafana Dashboard](https://github.com/ramankrishnan/devops-ci-cd-demo/blob/main/images/Screenshot%20(210).png?raw=true)  
-   *📊 Visualizing system metrics for optimal performance.*
-
-4. **Logo Server Application in Browser**  
-   The deployed Logo Server application displaying the Swayatt logo.  
-   ![Logo Server](https://github.com/ramankrishnan/devops-ci-cd-demo/blob/main/images/Screenshot%20(211).png?raw=true)  
-   *🌐 The Logo Server running successfully at `http://<NodePort-IP>:<NodePort>`.*
-
-> 💡 **Tip**: Click on the screenshots to view them in full resolution on GitHub.
-
-```
-
-### How to Integrate into Your README
-
-1. **Copy the Section**: Copy the markdown content above (from `## 📸 Output / Screenshots` to the end).
-2. **Edit README.md**:
-   - Open your `README.md` file in your GitHub repository (`https://github.com/ramankrishnan/devops-ci-cd-demo`).
-   - Add the **Output / Screenshots** section under the existing content or replace any existing screenshot section. For example, you can place it after the **Technical Details** section or the **Step-by-Step Setup** section from your previous requests.
-   - If you want to combine this with the **Step-by-Step Setup** section provided earlier, append it after that section in the README.
-3. **Verify Screenshots**:
-   - The provided screenshot URLs (`Screenshot (105).png`, etc.) are already hosted in your repository's `images/` folder and are correctly referenced with `?raw=true` to ensure they display properly in the README.
-   - If you upload additional screenshots or rename them, update the URLs accordingly (e.g., `https://github.com/ramankrishnan/devops-ci-cd-demo/blob/main/images/<new-screenshot-name>.png?raw=true`).
-4. **Commit and Push**:
-   ```bash
-   git add README.md
-   git commit -m "docs: add output screenshots section with emojis and descriptions"
-   git push origin main
-   ```
-5. **Preview**: After pushing, visit your repository (`https://github.com/ramankrishnan/devops-ci-cd-demo`) to ensure the screenshots render correctly and the section looks appealing.
-
-### Full README Example (Optional)
-
-If you want to combine this with the existing "Logo Server" content and the **Step-by-Step Setup** section, here's how the full `README.md` could look. This integrates the original repository content, the enhanced **Step-by-Step Setup** from your previous request, and the new **Output / Screenshots** section.
-
-```markdown
 # 🚀 CI/CD Pipeline with Jenkins, GitHub, and AWS for Logo Server
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/ramankrishnan/devops-ci-cd-demo)
