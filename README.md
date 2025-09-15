@@ -266,6 +266,14 @@ TOOLS CONFIGURATION
 
 - Install **OWASP Dependency-Check** plugin.  
 - Add to pipeline for vulnerability scanning.
+  ```
+  stage('OWASP FS Scan') {
+            steps {
+                dependencyCheck additionalArguments: '--scan ./ --disableYarnAudit --disableNodeAudit', odcInstallation: 'DP-Check'
+                dependencyCheckPublisher pattern: '**/dependency-check-report.xml'
+            }
+        }
+  ```
 
 ---
 
