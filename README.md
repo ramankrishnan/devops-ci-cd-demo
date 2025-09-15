@@ -255,7 +255,7 @@ sudo apt install trivy -y
 
 ### ✅ Step 7 — 
 TOOLS CONFIGURATION
-![Pipeline Screenshot](https://github.com/ramankrishnan/devops-ci-cd-demo/blob/main/images/Screenshot%20(211).png)
+
 ![Pipeline Screenshot](https://github.com/ramankrishnan/devops-ci-cd-demo/blob/main/images/Screenshot%20(212).png)
 ![Pipeline Screenshot](https://github.com/ramankrishnan/devops-ci-cd-demo/blob/main/images/Screenshot%20(213).png)
 ![Pipeline Screenshot](https://github.com/ramankrishnan/devops-ci-cd-demo/blob/main/images/Screenshot%20(214).png)
@@ -462,7 +462,9 @@ pipeline {
 ```
 
 
-
+final output:
+=========================
+![Pipeline Screenshot](https://github.com/ramankrishnan/devops-ci-cd-demo/blob/main/images/Screenshot%20(211).png)
 
 ### ✅ Step 13 — Terminate EC2 Instances
 
