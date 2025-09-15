@@ -470,7 +470,7 @@ pipeline {
 
 ```
 ---
-===============================================================================================================================
+======
 final output:
 =========================
 ![Pipeline Screenshot](https://github.com/ramankrishnan/devops-ci-cd-demo/blob/main/images/Screenshot%20(209).png)
