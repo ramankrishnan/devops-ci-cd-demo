@@ -346,8 +346,11 @@ kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documen
 ci-cd pipeline script
 =====================================
 
-```
 
+
+
+---
+```
 pipeline {
     agent any
     tools {
@@ -452,6 +455,10 @@ pipeline {
 }
 
 ```
+
+
+
+
 ### ✅ Step 13 — Terminate EC2 Instances
 
 - Go to **AWS EC2 Console** and terminate instances after testing.
