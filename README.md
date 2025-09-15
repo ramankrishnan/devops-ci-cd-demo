@@ -277,12 +277,11 @@ TOOLS CONFIGURATION
 
 ---
 
-### ✅ Step 9 — Build & Push Docker Image
+### ✅ Step 9 — jenkins credentials
 
-```bash
-docker build -t ramankms/logo:latest .
-docker push ramankms/logo:latest
-```
+output:
+![Pipeline Screenshot](https://github.com/ramankrishnan/devops-ci-cd-demo/blob/main/images/Screenshot%20(216).png)
+![Pipeline Screenshot](https://github.com/ramankrishnan/devops-ci-cd-demo/blob/main/images/Screenshot%20(217).png)
 
 ---
 
