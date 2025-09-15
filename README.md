@@ -510,8 +510,6 @@ Here is the sample output of the pipeline execution:
 
 
 
-![Pipeline Screenshot](https://github.com/ramankrishnan/devops-ci-cd-demo/blob/main/images/Screenshot%20(217).png)
-![Pipeline Screenshot](https://github.com/ramankrishnan/devops-ci-cd-demo/blob/main/images/Screenshot%20(218).png)
 ![Pipeline Screenshot](https://github.com/ramankrishnan/devops-ci-cd-demo/blob/main/images/Screenshot%20(219).png)
 ![Pipeline Screenshot](https://github.com/ramankrishnan/devops-ci-cd-demo/blob/main/images/Screenshot%20(220).png)
 
