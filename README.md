@@ -359,7 +359,7 @@ kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documen
 ---
 ci-cd pipeline script
 =====================================
-
+![Pipeline Screenshot](https://github.com/ramankrishnan/devops-ci-cd-demo/blob/main/images/Screenshot%20(219).png)
 
 
 
@@ -510,10 +510,8 @@ Here is the sample output of the pipeline execution:
 
 
 
-![Pipeline Screenshot](https://github.com/ramankrishnan/devops-ci-cd-demo/blob/main/images/Screenshot%20(219).png)
-![Pipeline Screenshot](https://github.com/ramankrishnan/devops-ci-cd-demo/blob/main/images/Screenshot%20(220).png)
 
-![Pipeline Screenshot](https://github.com/ramankrishnan/devops-ci-cd-demo/blob/main/images/Screenshot%20(222).png)
+
 ![Pipeline Screenshot](https://github.com/ramankrishnan/devops-ci-cd-demo/blob/main/images/Screenshot%20(105).png)
 
 
