@@ -343,13 +343,15 @@ kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documen
 - Displays the Swayatt logo.
 
 ---
+
+---
 ci-cd pipeline script
 =====================================
 
 
 
 
----
+```
 ```
 pipeline {
     agent any
