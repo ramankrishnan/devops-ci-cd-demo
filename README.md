@@ -360,10 +360,10 @@ ci-cd pipeline script
 =====================================
 
 
-
+```
 
 ```
-```
+
 pipeline {
     agent any
     tools {
@@ -468,7 +468,7 @@ pipeline {
 }
 
 ```
----
+
 
 final output:
 =========================
