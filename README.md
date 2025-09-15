@@ -360,10 +360,10 @@ ci-cd pipeline script
 =====================================
 
 
-```
+
+
 
 ```
-
 pipeline {
     agent any
     tools {
@@ -468,12 +468,13 @@ pipeline {
 }
 
 ```
-
-
+---
+===============================================================================================================================
 final output:
 =========================
 ![Pipeline Screenshot](https://github.com/ramankrishnan/devops-ci-cd-demo/blob/main/images/Screenshot%20(211).png)
-
+---
+=========================================================================================================================================
 ### ✅ Step 13 — Terminate EC2 Instances
 
 - Go to **AWS EC2 Console** and terminate instances after testing.
