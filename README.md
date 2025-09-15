@@ -496,7 +496,7 @@ final output:
 **Raman Krishnan**  
 - GitHub: [ramankrishnan](https://github.com/ramankrishnan)  
 - LinkedIn: [Your LinkedIn Profile](#)  
-- Email: [Your Email](#)
+- Email: [ramankms767@gmail.com](#)
 
 ---
 
